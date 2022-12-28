@@ -3,7 +3,7 @@ console.log('Opening server');
 const express = require('express');
 const app = express();
 
-const http = require('http');
+const http = require('https');
 const server = http.Server(app);
 
 app.use(express.static('client'));
